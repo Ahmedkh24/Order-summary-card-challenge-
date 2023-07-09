@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 36rem;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px 1px hsl(224, 23%, 55%);
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 1.6rem 2.7rem;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  font-size: 1.6rem;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.heading-primary {
+  font-size: 2.4rem;
+}
+.text {
+  font-size: 1.6rem;
+}
+
+.pricing-part {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 2.4rem 3.2rem;
+  margin-top: -1rem;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 94%);
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.change-btn {
+  margin-left: auto;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: hsl(245, 75%, 52%);
+}
+
+.payment-btn {
+  display: block;
+  padding: 1.5rem;
+  margin: 1.6rem 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  border-radius: 10px;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 1px 3px 4px 0px hsl(224, 23%, 55%);
+}
+.canel-btn {
+  display: block;
+  padding: 1.5rem;
+  margin: 1.6rem 3.2rem 3.2rem 3.2rem;
+  /*margin-bottom: 3.2rem;*/
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-btn:link,
+.change-btn:visited {
+  transition: all 0.3s;
+}
+
+.change-btn:hover,
+.change-btn:active {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment-btn:link,
+.payment-btn:visited {
+  transition: all 0.3s;
+}
+
+.payment-btn:hover,
+.payment-btn:active {
+  background-color: hsl(224, 23%, 55%);
+  color: hsl(225, 100%, 98%);
+}
+
+.canel-btn:link,
+.canel-btn:visited {
+  transition: all 0.3s;
+}
+
+.canel-btn:hover,
+.canel-btn:active {
+  color: hsl(223, 47%, 23%);
+}
