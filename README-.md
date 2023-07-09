@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Ahmedkh24/Order-summary-card-challenge-/tree/main
 - Live Site URL: https://ahmedkh24.github.io/Order-summary-card-challenge-/
 
 ## My process
